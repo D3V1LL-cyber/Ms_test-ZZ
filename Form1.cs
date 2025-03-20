@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CaesarCipherApp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void buttonEncrypt_Click(object sender, EventArgs e)
+        {
+            CaesarCipher cipher = new CaesarCipher();
+            int shift = (int)numericUpDownShift.Value;
+            string inputText = textBoxInput.Text;
+
+            string encryptedText = cipher.Encrypt(inputText, shift);
+            textBoxOutput.Text = encryptedText;
         }
     }
 }
