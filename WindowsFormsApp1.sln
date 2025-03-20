@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35818.85 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1.csproj", "{2605EB3D-7FBD-4C1B-BB65-56A5A57DD9FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipherTests", "..\CaesarCipherTests\CaesarCipherTests.csproj", "{331BA0E9-5662-4B8F-9C07-F996CB1A2729}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2605EB3D-7FBD-4C1B-BB65-56A5A57DD9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2605EB3D-7FBD-4C1B-BB65-56A5A57DD9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2605EB3D-7FBD-4C1B-BB65-56A5A57DD9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331BA0E9-5662-4B8F-9C07-F996CB1A2729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331BA0E9-5662-4B8F-9C07-F996CB1A2729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331BA0E9-5662-4B8F-9C07-F996CB1A2729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331BA0E9-5662-4B8F-9C07-F996CB1A2729}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
